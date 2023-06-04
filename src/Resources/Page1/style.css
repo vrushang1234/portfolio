@@ -1,0 +1,116 @@
+.Page1{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.p1_text_container{
+    width: 69%;
+    float: left;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+}
+.intro{
+    font-size: 13vh;
+    color: white;
+}
+.mypic{
+    height: 100%;
+    float: right;
+}
+.pic-container{
+    height: 100%;
+    width: 30%;
+    float: right;
+    left: 70%;
+    position: fixed;
+}
+.icode{
+    color: #24C3E5;
+    position: relative;
+    font-size: 6vh;
+    height: 8vh;
+    width: 100%;
+}
+.typewritetext{
+    position: relative;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    opacity: 1;
+    white-space: nowrap;
+    
+}
+.t1{
+    animation-name: typewriter1;
+    animation-duration: 4s;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.t2{
+     animation-name: typewriter2;
+    animation-duration: 4s;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes typewriter1 {
+    0%{
+        opacity: 0;
+    }
+    15%,40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    65%,90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes typewriter2{
+    0%{
+        opacity: 0;
+    }
+    15%,40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    65%,90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+
+}
+.SpaceShuttle{
+    position: fixed;
+    height: 20vh;
+    transform: rotateZ(290deg);
+    top: 5%;
+    left: 25%;
+    animation-name: SpaceShuttle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+@keyframes SpaceShuttle {
+    50%{
+        top: 10%;
+    }
+    
+    
+}

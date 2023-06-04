@@ -1,0 +1,97 @@
+.Page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: #202020;
+    background-image: url("../../Data/Images/Python.png");
+    background-size: cover;
+}
+.p3_header{
+    height: 15vh;
+    font-size: 10vh;
+    color: white;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+.p3_container{
+    height: 80%;
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+}
+.skills_container{
+    background-color: white;
+    height: 30vh;
+    width: 18vw;
+    position: relative;
+    border-radius: 20%;
+    top: 50%;
+    left: 0%;
+    opacity: 1;
+    margin-left: 2vw;
+    transform: translate(20vw,-50%);
+    transition: 1s;
+    display: inline-block;
+    overflow-y: hidden;
+}
+
+
+.skills_container h1{
+    text-align: center;
+    font-size: 5vh;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 30px;
+      
+}
+.rightarrow{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    
+    transition: 1s;
+    right: 15%;
+}
+
+.leftarrow{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    position: absolute;
+    top: 50%;
+    transition: 1s;
+    left: 15%;
+}
+.rightarrow:hover{
+    right: 14%;
+}
+.leftarrow:hover{
+    left: 14%;
+}
+
+
+.carousel{
+    white-space: nowrap;
+    height: 60%;
+    max-width: 60%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.carousel-slider{
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}

@@ -1,0 +1,105 @@
+.Page4{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ededed;
+    position: relative;
+    overflow-y: hidden;
+}
+.AstroOnPlanet{
+    height: 40vh;
+    position: absolute;
+    top: 79%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    animation-name: AstroOnPlanet;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.p4_header{
+    height: 15vh;
+    font-size: 10vh;
+    color: #383838;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+
+.Saturn{
+    height: 40vh;
+    position: absolute;
+    left: 90%;
+    top: 15%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    animation-name: Saturn;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.FinalPage_Cont{
+    height: 60%;
+    width: 45%;
+    background-color: #171717;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #7e7e7e;
+}
+.contact_list{
+    font-size: 4vh;
+    color: white;
+}
+.list-item{
+    height: 10vh;
+}
+.list-icon{
+    position: relative;
+    top: 10%;
+}
+@keyframes Saturn {
+    25%{
+        left: 10%;
+        top: 15%;
+    }
+    50%{
+        top: 90%;
+        left: 10%;
+    }
+    75%{
+        top: 90%;
+        left: 90%;
+    }
+    
+}
+
+@keyframes AstroOnPlanet {
+    25%{
+        left: 90%;
+        top: 79%;
+    }
+    50%{
+        left: 90%;
+        top: 25%;
+    }
+    75%{
+        left: 10%;
+        top: 25%;
+    }
+}

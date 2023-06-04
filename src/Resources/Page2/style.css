@@ -1,0 +1,44 @@
+.Page2{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.p2_text_container{
+    font-size: 4.5vh;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    opacity: 0;
+}
+
+h{
+    color: #24C3E5;
+}
+.Astronaut{
+    height: 25vh;
+    position: fixed;
+    left: 80%;
+    top: 5%;
+    animation-name: Astronaut;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    display: none;
+}
+@keyframes Astronaut {
+    25%{
+        transform: rotate(-30deg);
+    }
+    75%{
+        transform: rotate(30deg);
+    }
+}
+
